@@ -1,0 +1,30 @@
+{
+  "name": "jfp-persist",
+  "version": "0.0.1",
+  "description": "A data persistent package for the JSON-FP runtime.",
+  "engines": "0.10.21",
+  "main": "persist.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benlue/jfp-persist.git"
+  },
+  "keywords": [
+    "node.js",
+    "newsql",
+    "nosql",
+    "sql",
+    "json-fp"
+  ],
+  "author": {
+    "name": "Ben Lue, Gocharm Inc."
+  },
+  "license": "GPL 2.0",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "bluebird": "^2.9.12",
+    "newsql": "0.0.3"
+  },
+  "devDependencies": {
+    "jsonfp": "^0.1.0"
+  }
+}
